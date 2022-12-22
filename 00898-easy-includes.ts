@@ -20,6 +20,5 @@ type cases = [
   Expect<Equal<Includes<[undefined], null>, false>>,
 ]
 
-
 // ============= Your Code Here =============
 type Includes<T extends readonly any[], U> = any
